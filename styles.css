@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #551b9c;
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#sobre {
+    background-image: url(../imgs/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    color: #551b9c;
+}
+
+#sobre img {
+    padding-right: 30px;
+}
+
+#informações {
+    padding: 25px;
+    text-align: center;
+}
+
+#informações h2{
+    font-size: 30px;
+}
+
+#informações p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+#atividades {
+    background-color: rgb(227, 227, 227);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+#exposição {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#quadrado {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+#rodapé {
+    margin: 0px;
+    padding: 10px 50px 10px 50px;
+    background-color: #551b9c;
+    color: white;
+}
